@@ -13,5 +13,12 @@ select id,salary,age from Employee where salary=200000
 select * from Employee where age <> 32 and age<=32
 select * from Employee where age <> 32 or age<=32
 select * from Employee where (age>20 and salary>40000) or (age>25 and salary>40000)
+
 select * from Employee where salary between 200000 and 2000000
+select * from Employee
+select * from Employee where name='Satty' or name='Apurba'
+select * from Employee where name in ('Manish','Satish','Rahul')
+select * from Employee where salary in (200000,2000000)
+
+
 
