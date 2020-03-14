@@ -21,4 +21,4 @@ select * from Employee
 /* Avg(),Count(),Max(),Min(),Sum() */
 
 select avg(salary)as Average_Salary from Employee
-select name , id from Employee where salary> avg(salary)
+select name , id from Employee where salary> (select avg(salary) from Employee)

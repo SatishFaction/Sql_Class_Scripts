@@ -5,7 +5,7 @@ select avg(salary),age from Employee group by age /*this will work*/
 select avg(salary) as Avg_Sal,age from Employee group by (age)
 select avg(salary),sum(age) from Employee
 select count(id),age,salary from Employee group by age,salary
-select name, max(salary) as max_Sal,min(salary)as min_sal from Employee group by (salary)
+
 select * from Employee
 /* sub queries*/
 select * from Employee where id in(select max(id) from Employee)

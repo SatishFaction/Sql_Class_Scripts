@@ -16,6 +16,7 @@ select distinct name from Employee where name like 'a%' or name like 'e%' or nam
 select distinct name from Employee where name like '[aeiou]%[aeiou]'
 select distinct name from Employee where name not like '[aeiou]%'
 select name from Employee where salary>10000 order by substring(name,-3,len(name)),id
+select name from Employee where name like '_p%'
 SELECT 
      name 
 FROM

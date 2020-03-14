@@ -19,6 +19,7 @@ select * from Employee
 select * from Employee where name='Satty' or name='Apurba'
 select * from Employee where name in ('Manish','Satish','Rahul')
 select * from Employee where salary in (200000,2000000)
+select * from Employee
 
 
 

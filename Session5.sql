@@ -19,5 +19,9 @@ select * from EMP3
 insert into EMP3(id,name,salary,age) values(7,'Arshan',18000,23)
 select name,salary from Employee e inner join EMP3 e1 on e.id=e1.id and e.age=e1.age
 select * from Employee cross join EMP3
-
+if (1=1)
+print'True'
+else
+print'False'
+select * from EMP2
 
