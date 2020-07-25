@@ -5,6 +5,7 @@ select avg(salary),age from Employee group by age /*this will work*/
 select avg(salary) as Avg_Sal,age from Employee group by (age)
 select avg(salary),sum(age) from Employee
 select count(id),age,salary from Employee group by age,salary
+select * from Employee
 
 select * from Employee
 /* sub queries*/
